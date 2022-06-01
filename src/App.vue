@@ -31,9 +31,7 @@ export default {
   padding: 0;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
+html, body {
   width: 100%;
   height: 100%;
   font-family: 'Koulen', cursive;

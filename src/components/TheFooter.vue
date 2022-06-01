@@ -5,7 +5,7 @@
 </template>
 <style scoped>
 footer{ 
-  position: absolute;
+  display: flex;
   width: 100%;
   background-color: #1B1B35;
   height: 150px;

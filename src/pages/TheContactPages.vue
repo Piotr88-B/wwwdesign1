@@ -8,14 +8,20 @@
     <label>Message</label>
     <textarea name="message" v-model="message" cols="30" rows="5" placeholder="Message">
           </textarea>
-
     <input type="submit" value="Send">
   </form>
+  <section-card><the-map></the-map></section-card>
+
 </section-card>
 </template>
 <script>
+import TheMap from '@/components/TheMap.vue'
 import emailjs from 'emailjs-com';
+import SectionCard from '@/ui/SectionCard.vue';
+
 export default {
+  components: { TheMap, SectionCard },
+ 
   name: 'ContactUs',
   data() {
     return {
