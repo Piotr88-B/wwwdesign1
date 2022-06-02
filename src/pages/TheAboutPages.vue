@@ -3,7 +3,7 @@
   <the-article-card v-for=" txt in textHub" 
   :key="txt.id" 
   :textArea="txt.textArea"
-  :textImg="txt.textImg" >
+ :src="txt.textImg">
   </the-article-card>
   </section-card>
 </template>
@@ -17,11 +17,3 @@ export default {
 
 
 </script>
-<style scoped>
- article { 
-   display: flex;
-   margin-top: 20px;
-   width: 100%;
-   height: 30vh;
- }
-</style>

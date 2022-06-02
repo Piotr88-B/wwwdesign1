@@ -10,18 +10,24 @@
           </textarea>
     <input type="submit" value="Send">
   </form>
-  <section-card><the-map></the-map></section-card>
+  <section-card>
+    <the-map></the-map>
+  </section-card>
 
 </section-card>
 </template>
+
 <script>
 import TheMap from '@/components/TheMap.vue'
 import emailjs from 'emailjs-com';
 import SectionCard from '@/ui/SectionCard.vue';
 
 export default {
-  components: { TheMap, SectionCard },
- 
+  components: {
+    TheMap,
+    SectionCard
+  },
+
   name: 'ContactUs',
   data() {
     return {
@@ -34,14 +40,16 @@ export default {
     sendEmail(e) {
       try {
         emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target,
-        'YOUR_USER_ID', {
-          name: this.name,
-          email: this.email,
-          message: this.message
-        })
+          'YOUR_USER_ID', {
+            name: this.name,
+            email: this.email,
+            message: this.message
+          })
 
-      } catch(error) {
-          console.log({error})
+      } catch (error) {
+        console.log({
+          error
+        })
       }
       // Reset form field
       this.name = ''
@@ -56,7 +64,7 @@ export default {
 form {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 20%;
   font-size: 12px;
   margin-left: auto;
   margin-right: auto;

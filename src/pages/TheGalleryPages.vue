@@ -1,9 +1,9 @@
 
 <template>
-  <section-card >
-  
+  <section-card mode="gallery__img">
+   
     <vue-picture-swipe  :items="items"> </vue-picture-swipe >
-
+    
   </section-card>
 </template>
 <script >
@@ -15,15 +15,6 @@ export default {
 
 
 </script>
-<style >
-img[itemprop="thumbnail"] {
-    width: 150px;
-    height: 150px;
-}
-/* img[itemprop="w"] {
-    width: 100%;
-}
-img[itemprop="h"] {
-    height: 100%;
-} */
+<style scoped>
+
 </style>

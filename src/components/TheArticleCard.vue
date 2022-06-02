@@ -20,7 +20,7 @@ article{
   flex-direction: row;
   flex-wrap: wrap;
   margin: 5px;
-  height: 30vh;
+  height: 50vh;
 
 }
 p{ color: black;}

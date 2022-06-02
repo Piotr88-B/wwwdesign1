@@ -27,36 +27,12 @@ export default {
     return {
       setPages: 'the-about-pages',
 
-      imageGallery: [{
-
-        src: require('@/assent/1.jpg'),
-         w: 1600,
-          h: 700,
-      }, {
-
-        src: require('@/assent/2.jpg'), w: 1600,
-          h: 700,
-
-      }, {
-
-        src: require('@/assent/3.jpg')
-      }, {
-
-        src: require('@/assent/4.jpg')
-      }, {
-
-        src: require('@/assent/5.jpg')
-      }, {
-
-        src: require('@/assent/6.jpg'),
-        htmlAfterThumbnail: '<span class="photos-date">01.06.2022</span>'
-      }, ],
       textBase: [{
         textArea: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.'+
         ' Exercitationem vitae veritatis alias corrupti natus laboriosam saepe'+
         ' placeat explicabo harum fugit. Iste officia soluta,'+
         ' debitis aspernatur labore eaque dolore beatae facilis',
-        textImg: '@/assent/1.jpg'
+        textImg: require('@/assent/4.jpg')
       },{
         textArea: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.'+
         ' Exercitationem vitae veritatis alias corrupti natus laboriosam saepe'+
@@ -135,7 +111,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style >
+img[itemprop="thumbnail"] {
+    width: 160px;
+    height: 160px;
+}
 nav {
   width: 100%;
   top: 0;
@@ -145,5 +125,14 @@ nav {
   margin-left: auto;
   margin-right: auto;
   background-color: #1B1B35;
+}
+.my-gallery{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>

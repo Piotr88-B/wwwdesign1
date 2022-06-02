@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 header {
-  width: 50%;
+  width: 100%;
   background-color: white;
   height: 7rem;
   margin-left: auto;

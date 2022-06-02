@@ -1,9 +1,13 @@
 <template>
+<div>
   <GMapMap
       :center="center"
       :zoom="10"
       map-type-id="terrain"
-      style="width: 500px; height: 300px"
+      style="
+      min-width: 40%; 
+       height:  300px;
+       "
   >
     <GMapCluster>
       <GMapMarker
@@ -16,6 +20,7 @@
       />
     </GMapCluster>
   </GMapMap>
+  </div>
 </template>
 <script>
 export default {
@@ -35,3 +40,15 @@ export default {
   }
 }
 </script>
+<style scoped>
+div{
+  display: flex;
+width: 50%;
+justify-content: space-evenly;
+margin-left: auto;
+margin-right: auto;
+}
+</style>
+
+
+
