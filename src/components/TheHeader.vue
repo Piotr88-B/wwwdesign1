@@ -1,41 +1,34 @@
 <template>
 <header>
-  <div>
+  <div class="header__tittle">
     <h1> {{ title }} </h1>
-    <form>
-      <label type="tel">tel: <a href="phone"> {{phone}}</a> </label>
-      <label type="email"><e-mail>{{ email }}</e-mail></label>
-    </form>
-  </div>
+</div>
 </header>
 </template>
 
 <script>
 export default {
-  props: [
-    'title',
-    'phone',
-    'email'
-  ]
+props:[ 'title' ]
 }
 </script>
 
 <style scoped>
 header {
-  width: 100%;
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: #666666;
   height: 7rem;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 h1 {
+  max-width: 600px;
   margin-bottom: 20px;
-  color: black;
+  color: white;
+  margin-left: auto;
+ margin-right: auto;
+  
+
 }
 
-p {
-
-  color: black;
-}
 </style>>

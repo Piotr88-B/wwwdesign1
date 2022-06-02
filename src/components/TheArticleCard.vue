@@ -19,8 +19,8 @@ article{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 5px;
   height: 50vh;
+  margin: 5px;
 
 }
 p{ color: black;}

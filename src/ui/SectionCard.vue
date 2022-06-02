@@ -39,6 +39,6 @@ max-width: 600px;
   display: flex;
   justify-content: space-evenly;
   max-width: 600px;
-  background-color: black;
+ 
 }
 </style>

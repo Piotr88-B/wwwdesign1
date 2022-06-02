@@ -14,21 +14,24 @@ export default {
 button {
   border: none;
   height: 30px;
-  width: 100px;
+  width: 80px;
   font-size: 12px;
   font-weight: bold;
-  background-color: white;
+  background-color: #666666;
+  cursor: pointer;
 }
 
 
 .flat {
   color: white;
-  background-color: #1B1B35;
+  background-color: #666666;
+  transition: 0.8s;
 }
 
 .flat:active,
 .flat:hover {
-    color: white;
-  background-color: #1B1B35;
+    color: black;
+   
+
 }
 </style>>

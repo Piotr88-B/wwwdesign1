@@ -7,7 +7,7 @@
 footer{ 
   display: flex;
   width: 100%;
-  background-color: #1B1B35;
+  background-color: #666666;
   height: 150px;
   bottom: 0;
 }

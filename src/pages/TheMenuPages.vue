@@ -117,14 +117,17 @@ img[itemprop="thumbnail"] {
     height: 160px;
 }
 nav {
+  display: flex;
   width: 100%;
+  justify-content: center;
   top: 0;
   position: sticky;
   flex-wrap: wrap;
+  gap: 2%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: #1B1B35;
+  background-color: #666666;
 }
 .my-gallery{
   width: 100%;
