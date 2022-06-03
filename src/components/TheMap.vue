@@ -1,7 +1,7 @@
 <template>
 <GMapMap :center="center" :zoom="15" map-type-id="terrain" style="
       min-width: 300px; 
-      height: 200px;
+      height: 220px;
     ">
   <GMapCluster>
     <GMapMarker :key="index" v-for="(m, index) in markers" :position="m.position" :clickable="true" :draggable="true" @click="center=m.position" />
@@ -33,5 +33,6 @@ export default {
 <style scoped>
 div {
   background-color: white;
+  
 }
 </style>

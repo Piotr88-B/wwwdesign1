@@ -16,6 +16,11 @@ props:[ 'type', 'mode']
 
 
 <style scoped>
+
+
+
+
+
 section{ 
   display: flex;
   justify-content: center;
@@ -25,6 +30,7 @@ section{
   margin-right: auto;
   margin-top: 4%;
   margin-bottom: 4%;
+  
  
 }
 div{
@@ -45,11 +51,12 @@ max-width: 600px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex: 1;
+    justify-content: center;
     max-width: 600px;
-    align-content:flex-start;
-   gap: 20px;
-    
+    gap: 10px;
+   
+      font-family: 'Tiro Devanagari Sanskrit', serif;
   
 }
 </style>

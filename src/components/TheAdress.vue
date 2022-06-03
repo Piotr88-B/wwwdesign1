@@ -1,17 +1,25 @@
 <template>
   <div class="contact__div">
-   <p>asdasd</p>
-  <label>asdasdddd</label>
+    <address>
+
+      <label>
+        <p>Dane kontaktowe: </p>
+        <p>Firma Marchandising</p>
+        <p>Plac Ratuszowy 75,</p>
+        <p>43-300 Bielsko-Biała</p>
+      </label>
+
+    </address>
   </div>
 </template>
 
 <style scoped>
-.contact__div{
- display: flex;
+.contact__div {
+  display: flex;
   flex-direction: column;
-  order: 2;
-  width: 300px;
-  background-color: blue;
-    height: 100px;
+  max-width: 250px;
+  order: 1;
+ margin-left: 65px;
+  height: 80px;
 }
 </style>

@@ -112,6 +112,8 @@ export default {
 </script>
 
 <style >
+
+
 img[itemprop="thumbnail"] {
     width: 160px;
     height: 160px;
@@ -140,8 +142,7 @@ nav {
 }
 
 .vue-map-container{
-    min-height: 200px;
-    background-color: black;
-    order: 3;
+    flex-basis: 250px;
+    order: 2;
 }
 </style>
