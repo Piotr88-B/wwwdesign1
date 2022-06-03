@@ -16,15 +16,16 @@ props:[ 'title' ]
 header {
   display: flex;
   flex-direction: column;
-  background-color: #666666;
-  height: 7rem;
+  
+  height: 10rem;
+  justify-content: center;
   width: 100%;
 }
 
 h1 {
   max-width: 600px;
   margin-bottom: 20px;
-  color: white;
+  color: black;
   margin-left: auto;
  margin-right: auto;
   

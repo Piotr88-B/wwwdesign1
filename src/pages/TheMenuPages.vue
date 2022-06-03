@@ -123,7 +123,7 @@ nav {
   top: 0;
   position: sticky;
   flex-wrap: wrap;
-  gap: 2%;
+  gap: 1%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -137,5 +137,11 @@ nav {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.vue-map-container{
+    min-height: 200px;
+    background-color: black;
+    order: 3;
 }
 </style>

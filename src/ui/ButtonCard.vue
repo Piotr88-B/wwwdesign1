@@ -14,7 +14,7 @@ export default {
 button {
   border: none;
   height: 30px;
-  width: 80px;
+  width: 70px;
   font-size: 12px;
   font-weight: bold;
   background-color: #666666;

@@ -41,4 +41,15 @@ max-width: 600px;
   max-width: 600px;
  
 }
+.contact__form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 600px;
+    align-content:flex-start;
+   gap: 20px;
+    
+  
+}
 </style>

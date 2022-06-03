@@ -8,7 +8,7 @@ footer{
   display: flex;
   width: 100%;
   background-color: #666666;
-  height: 150px;
+  height: 250px;
   bottom: 0;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
-<section-card>
-  <form>
+<section-card mode="contact__form">
+  <form class="contaction__form">
     <label>Name</label>
     <input type="text" v-model="name" name="name" placeholder="Your Name">
     <label>Email</label>
@@ -10,10 +10,8 @@
           </textarea>
     <input type="submit" value="Send">
   </form>
-  <section-card>
     <the-map></the-map>
-  </section-card>
-
+    <the-adress></the-adress>
 </section-card>
 </template>
 
@@ -21,11 +19,13 @@
 import TheMap from '@/components/TheMap.vue'
 import emailjs from 'emailjs-com';
 import SectionCard from '@/ui/SectionCard.vue';
+import TheAdress from '@/components/TheAdress.vue';
 
 export default {
   components: {
     TheMap,
-    SectionCard
+    SectionCard,
+    TheAdress
   },
 
   name: 'ContactUs',
@@ -61,19 +61,18 @@ export default {
 </script>
 
 <style scoped>
-form {
+.contaction__form {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 300px;
   font-size: 12px;
-  margin-left: auto;
-  margin-right: auto;
+  order: 1;
+ 
 }
 
 input[type=text],
 [type=email],
 textarea {
-  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
