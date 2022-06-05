@@ -127,6 +127,7 @@ nav {
   position: sticky;
   flex-wrap: wrap;
   gap: 1%;
+  z-index: 10;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -145,5 +146,6 @@ nav {
 .vue-map-container{
     flex-basis: 250px;
     order: 2;
+    
 }
 </style>
