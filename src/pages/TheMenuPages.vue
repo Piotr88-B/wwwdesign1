@@ -28,57 +28,56 @@ export default {
       setPages: 'the-about-pages',
 
       textBase: [{
-        textArea: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.'+
-        ' Exercitationem vitae veritatis alias corrupti natus laboriosam saepe'+
-        ' placeat explicabo harum fugit. Iste officia soluta,'+
-        ' debitis aspernatur labore eaque dolore beatae facilis',
+        textArea: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.' +
+          ' Exercitationem vitae veritatis alias corrupti natus laboriosam saepe' +
+          ' placeat explicabo harum fugit. Iste officia soluta,' +
+          ' debitis aspernatur labore eaque dolore beatae facilis',
         textImg: require('@/assent/4.jpg')
-      },{
-        textArea: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.'+
-        ' Exercitationem vitae veritatis alias corrupti natus laboriosam saepe'+
-        ' placeat explicabo harum fugit. Iste officia soluta,'+
-        ' debitis aspernatur labore eaque dolore beatae facilis',
+      }, {
+        textArea: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.' +
+          ' Exercitationem vitae veritatis alias corrupti natus laboriosam saepe' +
+          ' placeat explicabo harum fugit. Iste officia soluta,' +
+          ' debitis aspernatur labore eaque dolore beatae facilis',
         textImg: '@/assent/2.jpg'
-      }
-      ],
-       items: [{
-          src: require('@/assent/1.jpg'),
-          thumbnail:  require('@/assent/1.jpg'),
-          w: 0,
-          h: 0,
-          alt: 'some numbers on a grey background' // optional alt attribute for thumbnail image
-       }, {
-          src: require('@/assent/2.jpg'),
-          thumbnail:  require('@/assent/2.jpg'),
-          w: 0,
-          h: 0,
-          alt: 'some numbers on a grey background' // optional alt attribute for thumbnail image
-       }, {
-          src: require('@/assent/3.jpg'),
-          thumbnail:  require('@/assent/3.jpg'),
-          w: 0,
-          h: 0,
-          alt: 'some numbers on a grey background' // optional alt attribute for thumbnail image
-       }, {
-          src: require('@/assent/4.jpg'),
-          thumbnail:  require('@/assent/4.jpg'),
-          w: 0,
-          h: 0,
-          alt: 'some numbers on a grey background' // optional alt attribute for thumbnail image
-       },  {
-          src: require('@/assent/5.jpg'),
-          thumbnail:  require('@/assent/5.jpg'),
-          w: 0,
-          h: 0,
-          alt: 'some numbers on a grey background' // optional alt attribute for thumbnail image
-       },  {
-          src: require('@/assent/6.jpg'),
-          thumbnail: require('@/assent/6.jpg'),
-          w: 0,
-          h: 0,
-          htmlAfterThumbnail: '<span class="photos-date">01.06.2022</span>' // optional, insert your html after tag <a> if you need it
-        }]
-      
+      }],
+      items: [{
+        src: require('@/assent/1.jpg'),
+        thumbnail: require('@/assent/1.jpg'),
+        w: 0,
+        h: 0,
+        alt: 'some numbers on a grey background' // optional alt attribute for thumbnail image
+      }, {
+        src: require('@/assent/2.jpg'),
+        thumbnail: require('@/assent/2.jpg'),
+        w: 0,
+        h: 0,
+        alt: 'some numbers on a grey background' // optional alt attribute for thumbnail image
+      }, {
+        src: require('@/assent/3.jpg'),
+        thumbnail: require('@/assent/3.jpg'),
+        w: 0,
+        h: 0,
+        alt: 'some numbers on a grey background' // optional alt attribute for thumbnail image
+      }, {
+        src: require('@/assent/4.jpg'),
+        thumbnail: require('@/assent/4.jpg'),
+        w: 0,
+        h: 0,
+        alt: 'some numbers on a grey background' // optional alt attribute for thumbnail image
+      }, {
+        src: require('@/assent/5.jpg'),
+        thumbnail: require('@/assent/5.jpg'),
+        w: 0,
+        h: 0,
+        alt: 'some numbers on a grey background' // optional alt attribute for thumbnail image
+      }, {
+        src: require('@/assent/6.jpg'),
+        thumbnail: require('@/assent/6.jpg'),
+        w: 0,
+        h: 0,
+        htmlAfterThumbnail: '<span class="photos-date">01.06.2022</span>' // optional, insert your html after tag <a> if you need it
+      }]
+
     }
   },
   provide() {
@@ -111,14 +110,12 @@ export default {
 }
 </script>
 
-<style >
-
-
-
+<style>
 img[itemprop="thumbnail"] {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
+
 nav {
   display: flex;
   width: 100%;
@@ -133,7 +130,8 @@ nav {
   margin-right: auto;
   background-color: #0A090D;
 }
-.my-gallery{
+
+.my-gallery {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -143,9 +141,9 @@ nav {
   margin-right: auto;
 }
 
-.vue-map-container{
-    flex-basis: 250px;
-    order: 2;
-    
+.vue-map-container {
+  flex-basis: 250px;
+  order: 2;
+
 }
 </style>

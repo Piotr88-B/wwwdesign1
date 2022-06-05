@@ -33,6 +33,6 @@ export default {
 <style scoped>
 div {
   background-color: white;
-  
+
 }
 </style>

@@ -2,18 +2,17 @@
 <header>
   <div class="header__tittle">
     <h1> {{ title }} </h1>
-</div>
+  </div>
 </header>
 </template>
 
 <script>
 export default {
-props:[ 'title' ]
+  props: ['title']
 }
 </script>
 
 <style scoped>
-
 header {
   display: flex;
   flex-direction: column;
@@ -28,9 +27,6 @@ h1 {
   margin-bottom: 20px;
   color: #C5A783;
   margin-left: auto;
- margin-right: auto;
-  
-
+  margin-right: auto;
 }
-
 </style>>

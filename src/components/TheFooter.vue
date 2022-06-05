@@ -29,6 +29,7 @@
 </script>
 
 <style scoped>
+
 footer {
   display: flex;
   flex-direction: row;
@@ -43,7 +44,7 @@ footer {
 .footer-content {
   margin-left: auto;
   margin-right: auto;
-  color: white;
+  color: #C5A783;
 }
 
 .footer-nav {

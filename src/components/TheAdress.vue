@@ -1,16 +1,14 @@
 <template>
-  <div class="contact__div">
-    <address>
-
-      <label>
-        <p>Adres firmy: </p>
-        <p>Firma Marchandising</p>
-        <p>Plac Ratuszowy 75,</p>
-        <p>43-300 Bielsko-Biała</p>
-      </label>
-
-    </address>
-  </div>
+<div class="contact__div">
+  <address>
+    <label>
+      <p>Adres firmy: </p>
+      <p>Firma Marchandising</p>
+      <p>Plac Ratuszowy 75,</p>
+      <p>43-300 Bielsko-Biała</p>
+    </label>
+  </address>
+</div>
 </template>
 
 <style scoped>

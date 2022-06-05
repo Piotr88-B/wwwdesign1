@@ -13,7 +13,7 @@
   <div class="contact__mapa">
     <the-map>
     </the-map>
-    
+
     <the-adress></the-adress>
   </div>
 </section-card>
@@ -65,7 +65,6 @@ export default {
 </script>
 
 <style scoped>
-
 .contaction__form {
   display: flex;
   flex-direction: column;

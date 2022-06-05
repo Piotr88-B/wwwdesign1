@@ -1,7 +1,7 @@
 <template>
 <article>
   <p>{{ textArea }}</p>
-  <img src=" textImg " alt="Obrazek"/>
+  <img src=" textImg " alt="Obrazek" />
 </article>
 </template>
 
@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style scoped>
-article{ 
+article {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -23,10 +23,14 @@ article{
   margin: 5px;
 
 }
-p{ color: black;}
-img{ 
+
+p {
+  color: black;
+}
+
+img {
   width: 100%;
-  height:40%;
+  height: 40%;
   background-color: blanchedalmond;
 }
 </style>
