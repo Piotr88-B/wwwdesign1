@@ -114,9 +114,10 @@ export default {
 <style >
 
 
+
 img[itemprop="thumbnail"] {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
 }
 nav {
   display: flex;
@@ -129,7 +130,7 @@ nav {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: #666666;
+  background-color: #0A090D;
 }
 .my-gallery{
   width: 100%;

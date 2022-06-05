@@ -13,19 +13,20 @@ props:[ 'title' ]
 </script>
 
 <style scoped>
+
 header {
   display: flex;
   flex-direction: column;
-  
   height: 10rem;
   justify-content: center;
   width: 100%;
+  margin: 5px;
 }
 
 h1 {
-  max-width: 600px;
+  max-width: 1000px;
   margin-bottom: 20px;
-  color: black;
+  color: #C5A783;
   margin-left: auto;
  margin-right: auto;
   

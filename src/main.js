@@ -7,6 +7,7 @@ import SectionCard from './ui/SectionCard.vue'
 import VuePictureSwipe from 'vue3-picture-swipe'
 import VueGoogleMaps from '@fawmi/vue-google-maps'
 
+
 const app = createApp(App)
 app.component('button-card', ButtonCard)
 app.component('section-card', SectionCard)

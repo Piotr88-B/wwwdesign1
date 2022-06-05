@@ -21,22 +21,21 @@ props:[ 'type', 'mode']
 
 
 
+
 section{ 
   display: flex;
   justify-content: center;
   width: 100%;
-  min-height: 50vh;
+ min-height: 100vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4%;
   margin-bottom: 4%;
-  
- 
 }
 div{
 display: flex;
 flex-direction: column;
-max-width: 600px;
+max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -44,7 +43,7 @@ max-width: 600px;
 .gallery__img{
   display: flex;
   justify-content: space-evenly;
-  max-width: 600px;
+  max-width: 1000px;
  
 }
 .contact__form{
@@ -53,8 +52,8 @@ max-width: 600px;
     flex-wrap: wrap;
     flex: 1;
     justify-content: center;
-    max-width: 600px;
-    gap: 10px;
+    max-width: 1000px;
+    gap: 50px;
    
       font-family: 'Tiro Devanagari Sanskrit', serif;
   

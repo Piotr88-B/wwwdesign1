@@ -9,11 +9,13 @@
 import TheHeader from './components/TheHeader.vue'
 import TheMenuPages from './pages/TheMenuPages.vue'
 import TheFooter from './components/TheFooter.vue'
+
 export default {
   components: {
     TheHeader,
     TheMenuPages,
-    TheFooter
+    TheFooter,
+  
 
   },
   data() {
@@ -36,6 +38,7 @@ html, body {
   height: 100%;
   font-family: 'Koulen', cursive;
   box-sizing: border-box;
+  font-size: 20px;
 
 }
 </style>

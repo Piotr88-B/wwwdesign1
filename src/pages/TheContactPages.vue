@@ -1,20 +1,22 @@
 <template>
-  <section-card mode="contact__form">
-    <form class="contaction__form">
-      <label>Name</label>
-      <input type="text" v-model="name" name="name" placeholder="Your Name">
-      <label>Email</label>
-      <input type="email" v-model="email" name="email" placeholder="Your Email">
-      <label>Message</label>
-      <textarea name="message" v-model="message" cols="30" rows="5" placeholder="Message">
+<section-card mode="contact__form">
+  <form class="contaction__form">
+    <label>Name</label>
+    <input type="text" v-model="name" name="name" placeholder="Your Name">
+    <label>Email</label>
+    <input type="email" v-model="email" name="email" placeholder="Your Email">
+    <label>Message</label>
+    <textarea name="message" v-model="message" cols="30" rows="5" placeholder="Message">
           </textarea>
-      <input type="submit" value="Send">
-    </form>
-    <div class="contact__mapa">
-      <the-map></the-map>
-      <the-adress></the-adress>
-    </div>
-  </section-card>
+    <input type="submit" value="Send">
+  </form>
+  <div class="contact__mapa">
+    <the-map>
+    </the-map>
+    
+    <the-adress></the-adress>
+  </div>
+</section-card>
 </template>
 
 <script>
@@ -64,20 +66,19 @@ export default {
 
 <style scoped>
 
-
-
-
 .contaction__form {
   display: flex;
   flex-direction: column;
-  flex-basis: 260px;
-  font-size: 12px;
+  flex-basis: 350px;
+  font-size: 20px;
   order: 1;
 }
-.contact__mapa{
+
+.contact__mapa {
   display: flex;
   flex-direction: column;
-  flex-basis: 250px;
+  flex-basis: 350px;
+  gap: 50px;
   order: 2;
 }
 
